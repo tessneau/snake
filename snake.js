@@ -11,7 +11,7 @@ const box = 32;
 
 // External Images
 const groundImg = new Image();
-groundImg.src = "./snakeSpace.png";
+groundImg.src = "https://tessneau.github.io/snake-game/snakeSpace.png";
 const foodImg = new Image();
 foodImg.src = "/snake-game/food.png";
 
