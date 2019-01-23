@@ -11,9 +11,9 @@ const box = 32;
 
 // External Images
 const groundImg = new Image();
-groundImg.src = "snakeSpace.png";
+groundImg.src = "/snake-game/snakeSpace.png";
 const foodImg = new Image();
-foodImg.src = "food.png";
+foodImg.src = "/snake-game/food.png";
 
 // Snake
 let snake =[];
