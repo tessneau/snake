@@ -16,7 +16,11 @@ const foodImg = new Image();
 foodImg.src = "food.png";
 
 // Snake
-let snake;
+let snake =[];
+snake[0] = {
+    x : 9 * box,
+    y : 10 * box
+};
 
 // Snake Direction
 let snakedir;
