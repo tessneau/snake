@@ -11,9 +11,9 @@ const box = 32;
 
 // External Images
 const groundImg = new Image();
-groundImg.src = "https://tessneau.github.io/snake-game/snakeSpace.png";
+groundImg.src = "SnakeSpace.png";
 const foodImg = new Image();
-foodImg.src = "/snake-game/food.png";
+foodImg.src = "food.png";
 
 // Snake
 let snake =[];
@@ -180,7 +180,7 @@ function main(){
     };
 
     // If Snake hits Wall or Itself
-    if(snakeX < 0 || snakeX > 18 * box || snakeY <2*box || snakeY > 18*box || collision(newHead,snake)){
+    if(snakeX < 0 || snakeX > 18 * box || snakeY < 2*box || snakeY > 18*box || collision(newHead,snake){
         //clearInterval(gameLoop); // clearInterval clears a timer set by setInterval()
         showScreen(2);
         screen_gameover.focus();
